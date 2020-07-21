@@ -1,0 +1,121 @@
+/*----------------------*/
+*{
+    box-sizing: border-box;
+  }
+  :root {
+    --context: 1440;
+    --h1: calc(61 / (var(--context) / 100) * 1vw);
+    --h2: calc(48.8 / (var(--context) / 100) * 1vw);
+    --h3: calc(39.1 / (var(--context) / 100) * 1vw);
+    --h4: calc(31.3 / (var(--context) / 100) * 1vw);
+    --h5: calc(25 / (var(--context) / 100) * 1vw);
+    --h6: calc(20 / (var(--context) / 100) * 1vw);
+    --p: calc(16 / (var(--context) / 100) * 1vw);
+    --pdetails: calc(12.8 / (var(--context) / 100) * 1vw);
+    --padding: 2.5vw;
+  }
+    body{
+      padding:20px;
+    }
+  h1{
+    font-family: 'Montserrat', Helvetica, sans-serif;
+  }
+  /*--------------------------------------------
+  QUESTION 1
+  ______________________________________________*/
+  h1 {
+    font-weight: 600;
+    font-size: var(--h1);
+    padding: 25px;
+    text-align: center;
+  }
+  /*General -------------*/
+   h2 {
+      /*font-weight: 500;*/
+      font-size: var(--h2);
+    }
+    h3 {
+      /*font-weight: 400;*/
+      font-size: var(--h3);
+    }
+    h4 {
+      /*font-weight: 300;*/
+      font-size: var(--h4);
+    }
+    h5 {
+      font-size: var(--h5);
+    }
+    h6 {
+      font-size: var(--h6);
+    }
+  /*--------------------------------------------
+  QUESTION 2
+  ______________________________________________*/
+  div {
+    padding: 25px;
+    border: 3px solid black;
+  }
+  #child{
+    margin: 10px;
+    /*width: 300px;
+    height: 100px;*/
+    background-color: purple;
+  }
+  /*--------------------------------------------
+  QUESTION 3
+  ______________________________________________*/
+  #container{
+   padding: 25px;
+   margin: 10px;
+   border: 3px green solid;
+  } 
+  .mychild{
+    font-size: var(--h4);
+    margin: 10px;
+   /* width: 300px;
+    height: 100px;*/
+    background-color: pink;
+  }
+  /*--------------------------------------------
+  QUESTION 4
+  ______________________________________________*/
+  .flex{
+    display: flex;
+    padding: 3em 2em;
+    justify-content: space-between;
+  }
+  .flexchild{
+    width: 100px;
+    height: 100px;
+    /*background-color: rgba(0,0,0,.3);*/
+    background: blue;
+  }
+  /*--------------------------------------------
+  QUESTION 5
+  ___________________________  ________________*/
+  .unorderedeg li{
+    font-size: var(--h4);
+    margin: 20px;
+  }
+  /*--------------------------------------------
+  QUESTION 6
+  ______________________________________________*/
+  a:hover{
+    background-color: lightgreen;
+  }
+  address {
+    padding: 10px;
+    border: 1px solid black;
+    background: rgba(0, 0, 0, 0.15);
+  }
+  /*--------------------------------------------
+  QUESTION 7
+  ______________________________________________*/
+  .overscroll{
+    background: #eee;
+    width: 200px;
+    margin: 10px;
+    height: 100px;
+    border: 1px dotted black;
+    overflow: scroll;
+  }
